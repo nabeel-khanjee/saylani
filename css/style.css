@@ -1,7 +1,5 @@
 body{
   background-color: #f7f8fa !important;
-  text-decoration: bold;
-  font-weight:bold;
 }
  /* Navbar */
 .top-icon{
@@ -17,12 +15,7 @@ body{
 .nav-img{
   width: 200px;
 }
-.navbar-nav{
-  margin-left: 130px;
-}
-.nav-link{
-  color: #000;
-}
+
 
 /* carousel */
 .carousel-inner img {
@@ -58,7 +51,6 @@ font{
 }
 .intro div{
   text-align: left;
-  padding: 0 120px 120px 120px;
 }
 .doing,.intro .logo{
   display: inline;
@@ -74,7 +66,6 @@ font{
   margin-bottom: 50px;
 }
 .intro div p{
-  
   color: gray;
   font-size: small;
   line-height: 25px;
@@ -89,18 +80,18 @@ font{
   padding: 100px;
 }
 
-.work div .row .col img{
+.work .row .col img{
   width: 50px;
   margin-bottom: 10px;
 }
-.work div .row .col span{
+.work .row .col span{
   font-size: 17px;
   color: #28a745;
 }
-.work div .row .col p{
+.work .row .col p{
   font-size: 15px;
 }
-.work div .row .col h1{
+.work .row .col h1{
   font-size: 3rem;
 }
 /* WHAT WE ARE DOING? */
@@ -108,13 +99,13 @@ font{
   text-align: center;
   background-color: #f7f8fa !important; 
 }
-.doing div .row .col{
+.doing .row .col{
   padding: 15px;
 }
-.doing div .row img{
+.doing .row img{
   width: 70px;
   margin: 20px;
-}.doing div .row h5{
+}.doing .row h5{
     padding-bottom: 20px;
 }
 /* MISSION AND UPCOMING PROJECTS */
