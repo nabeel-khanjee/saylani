@@ -6,6 +6,12 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Animated CSS -->
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+
   <!-- CSS -->
   <link rel="stylesheet" href="css/style.css">
   <!-- Font Awesome -->
@@ -14,56 +20,56 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <style>
+  
+  @media only screen and (max-width: 800px)
+{
 
-
-    @media only screen and (max-width: 800px)
-    {
-    
-    .carousel-inner img {
-    margin: auto;
-    height:300px;
-    }
-    h1{
-      font-size: 2.3rem;
-    }
-    h2{
-    font-size: 1.7rem;
-  }
-  h5{
-    font-size: 1.2rem;
-  }
-  h6{
-    font-size: 0.7rem;
-  }
-  p{
-    font-size: 0.9rem;
-  }
+.carousel-inner img {
+margin: auto;
+height:300px;
 }
-  @media only screen and (max-width: 600px) {
-    .carousel-inner img {
-    margin: auto;
-    height:200px;
-  }
-  .row,.col{
-    display: block;
-    position: relative;
-  }
-  h1{
-    font-size: 2rem;
-  }
-  h2{
-    font-size: 1.5rem;
-  }
-  h5{
-    font-size: 1rem;
-  }
-  h6{
-    font-size: 0.5rem;
-  }
-  p{
-    font-size: 0.7rem;
-  }
-  } 
+h1{
+  font-size: 2.3rem;
+}
+h2{
+font-size: 1.7rem;
+}
+h5{
+font-size: 1.2rem;
+}
+h6{
+font-size: 0.7rem;
+}
+p{
+font-size: 0.9rem;
+}
+}
+@media only screen and (max-width: 600px) {
+.carousel-inner img {
+margin: auto;
+height:200px;
+}
+.row,.col{
+display: block;
+position: relative;
+}
+h1{
+font-size: 2rem;
+}
+h2{
+font-size: 1.5rem;
+}
+h5{
+font-size: 1rem;
+}
+h6{
+font-size: 0.5rem;
+}
+p{
+font-size: 0.7rem;
+}
+} 
+
   </style>
   <title>ASSIGNMENT 03</title>
 
@@ -98,12 +104,12 @@
     <div class="collapse navbar-collapse" id="navbarTogglerDemo02" style="flex-grow: 0;">
       <ul class="navbar-nav mr-auto mt-2 mt-lg-0" style="padding-right: 0;">
         <li class="nav-item"><a class="nav-link" href="#"><button class="btn btn-sm btn-block btn-primary" style="border-color: #f8f9fa!important; border-radius: 30px; ">Home</button></a></li>
-        <li class="nav-item"><a class="nav-link" href="#"><button class="btn btn-sm btn-block btn-outline-primary " style="border-color: #f8f9fa!important; border-radius: 30px;">About</button></a></li>
-        <li class="nav-item"><a class="nav-link" href=""><button class="btn btn-sm btn-block btn-block btn-outline-primary" style="border-color: #f8f9fa!important; border-radius: 30px;">Saylani Services</button></a></li>
-        <li class="nav-item"><a class="nav-link" href=""><button class="btn btn-sm btn-block btn-outline-primary" style="border-color: #f8f9fa!important; border-radius: 30px;">Future Project</button></a></li>
+        <li class="nav-item"><a class="nav-link" href="#"><button class="btn btn-sm btn-block btn-outline-primary " style=" border-color: #f8f9fa!important; border-radius: 30px;">About  <i  class="fa fa-angle-down"></i> </button></a></li>
+        <li class="nav-item"><a class="nav-link" href=""><button class="btn btn-sm btn-block btn-block btn-outline-primary" style="border-color: #f8f9fa!important; border-radius: 30px;">Saylani Services <i class="fa fa-angle-down"></i> </button></a></li>
+        <li class="nav-item"><a class="nav-link" href=""><button class="btn btn-sm btn-block btn-outline-primary" style="border-color: #f8f9fa!important; border-radius: 30px;">Future Project <i class="fa fa-angle-down"></i> </button></a></li>
         <li class="nav-item"><a class="nav-link" href=""><button class="btn btn-sm btn-block btn-outline-primary" style="border-color: #f8f9fa!important; border-radius: 30px;">Media</button></a></li>
         <li class="nav-item"><a class="nav-link" href=""><button class="btn btn-sm btn-block btn-outline-primary" style="border-color: #f8f9fa!important; border-radius: 30px;">News</button></a></li>
-        <li class="nav-item"><a class="nav-link" href=""><button class="btn btn-sm btn-block btn-outline-primary" style="border-color: #f8f9fa!important; border-radius: 30px;">Donation</button></a></li>
+        <li class="nav-item"><a class="nav-link" href=""><button class="btn btn-sm btn-block btn-outline-primary" style="border-color: #f8f9fa!important; border-radius: 30px;">Donation <i class="fa fa-angle-down"></i> </button></a></li>
       </ul>
     </div>
     </div>
@@ -116,12 +122,12 @@
   <!-- carousel -->
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
-      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active" style="height: 10px;width: 10px; border-radius: 100%;"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1" style="height: 10px;width: 10px; border-radius: 100%;"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"style="height: 10px;width: 10px; border-radius: 100%;"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="3"style="height: 10px;width: 10px; border-radius: 100%;"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="4"style="height: 10px;width: 10px; border-radius: 100%;"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="5"style="height: 10px;width: 10px; border-radius: 100%;"></li>
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
@@ -144,11 +150,11 @@
       </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span style="padding: 30%;"  class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="sr-only">Previous</span>
     </a>
     <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span style="padding: 30%;" class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
     </a>
   </div>
@@ -161,7 +167,7 @@
   <div class="home container-fluid" style="background-color: hsl(0, 0%, 100%);">
   <div class="home container" style="padding-top: 10px ;
   padding-bottom: 11px;">
-    <marquee class="home-box" behavior="" direction=""><font>(News-1 Dated:15-06-2019)</font>  PIAICNext Phase Admission in Islamabad And Faisalabad" . More Details    <font>(News-2 Dated:15-05-2019)</font>  Saylani Welfare Announced "Donation Application" . More Details    <font>(News-3 Dated:07-05-2019)</font>  Alhamdulillah Saylani Organized 200+ Locations For Iftar And Sehri In This Holy Month . More Details  <font>(News-4 Dated:08-03-2019)</font>    Saylani Welfare Distributing Ration &amp; Clothes to affected people of Balochistan. More Details  <font> (News-5 Dated:25-02-2019) </font>  PIAIC Entrance Exam Merit Ranking List Announced. More Details <font>(News-6 Dated:23-02-2019) </font>   President of Pakistan <font>(Dr. Arif Alvi) </font> Visited Saylani Welfare International Trust HeadOffice Karachi. More Details <i class="fab fa-donate"></i> <font> (News-7 Dated:19-02-2019) </font> Dr Jamil Ahmed <font>(Additional Inspector General of Police) </font>&amp; Atiqmir Visit Saylani Welfare International Trust, Saylani Mass I.T. Training. More Details   
+    <marquee class="shadow-lg home-box" behavior="" direction=""><font>(News-1 Dated:15-06-2019)</font>  PIAICNext Phase Admission in Islamabad And Faisalabad" . More Details    <font>(News-2 Dated:15-05-2019)</font>  Saylani Welfare Announced "Donation Application" . More Details    <font>(News-3 Dated:07-05-2019)</font>  Alhamdulillah Saylani Organized 200+ Locations For Iftar And Sehri In This Holy Month . More Details  <font>(News-4 Dated:08-03-2019)</font>    Saylani Welfare Distributing Ration &amp; Clothes to affected people of Balochistan. More Details  <font> (News-5 Dated:25-02-2019) </font>  PIAIC Entrance Exam Merit Ranking List Announced. More Details <font>(News-6 Dated:23-02-2019) </font>   President of Pakistan <font>(Dr. Arif Alvi) </font> Visited Saylani Welfare International Trust HeadOffice Karachi. More Details <i class="fab fa-donate"></i> <font> (News-7 Dated:19-02-2019) </font> Dr Jamil Ahmed <font>(Additional Inspector General of Police) </font>&amp; Atiqmir Visit Saylani Welfare International Trust, Saylani Mass I.T. Training. More Details   
       
     </marquee>
   </div>
@@ -172,7 +178,8 @@
 
 
   <!-- introduction -->
-  <div class="intro container container-fluid">			
+  <section id="introduction">
+      <div class="animated swing delay-2s intro container container-fluid">			
     <h1>INTRO<span>DUCTION</span></h1>
     <span class="logo">
       <hr>
@@ -188,15 +195,17 @@
     </p>
     </div>
   </div>
+  </section>
+
   <!-- introduction_end -->
 
 
 
   <!-- works -->
-  <div class="work container-fluid">
-    <div class="container">
+  <div class="work container-fluid" style="   background-image:linear-gradient(to top,#0026ff, #0026ff,#5900ffa2,#0720ff,#000000,#000000,#000000); background-attachment: fixed;">
+    <div class=" container">
       <div class="row">
-      <div class="container col col-lg-3 col-md-6">
+      <div class="container col col-lg-3 col-md-6" >
         <img src="https://www.saylaniwelfare.com/public_html/images/saylani/icons/icon_food_png.png" alt="">
         <h1>125,000</h1>
         <p>DAILY DASTRAKHAN <span>(MONTHLY)</span></p>
@@ -269,6 +278,7 @@
         <div class="shadow-lg">
           <img src="https://www.saylaniwelfare.com/public_html/images/saylani/icons/education.png" alt=""><h5>EDUCATION</h5>
         </div>
+        <br><br><br><br>
       </div>
     </div>	
   </div>
@@ -276,8 +286,8 @@
   <!-- WHAT WE ARE DOING?_end -->
 
   <!-- MISSION AND UPCOMING PROJECTS -->
-  <div class="upcoming container-fluid">
-    <div class="container">
+  <div class="upcoming container-fluid ">
+    <div class="container ">
             <div class="row">
       <div class="col col-lg-8">
         <div class="container">
@@ -286,19 +296,19 @@
           <hr>
           <div class="row">
             <div class="col col-lg-6 ">
-              <div class="container">
+              <div class="container shadow">
                 <img src="https://www.saylaniwelfare.com/public_html/images/saylani/icons/Hepatitis.png" alt="">
               <h6>HEPATITIS</h6>
               </div>
             </div>
               <div class="col col-lg-6">
-                <div class="container">
+                <div class="container shadow">
                   <img src="https://www.saylaniwelfare.com/public_html/images/saylani/icons/housing.png" alt="">
                 <h6>HOUSING SOCIETY</h6>
                 </div>
               </div>
               <div class="col col-lg-6">
-                <div class="container">
+                <div class="container shadow">
                   <img src="https://www.saylaniwelfare.com/public_html/images/saylani/icons/IT.png" alt="">
                 <h6>IT LITERACY
                 </h6>
@@ -306,7 +316,7 @@
                 
               </div>
               <div class="col col-lg-6">
-                <div class="container">
+                <div class="container shadow">
                   <img src="https://www.saylaniwelfare.com/public_html/images/saylani/icons/tharparkar.png" alt="">
                 <h6>THARPARKAR
             </h6>
@@ -322,7 +332,7 @@
         <h2>Upcoming Events</h2>
         <hr>
       </div>
-      <div class="container">
+      <div class="container ">
         <marquee behavior="" direction="Up" scrollamount="3" height="250"><p>
           Saylani Welfare Distributing Ration &amp; Clothes to affected people of Balochistan . <span>More Details</span> 
           <br>
@@ -380,6 +390,7 @@
   </div>
   </div>
   <div class="footer container-fluid">
+    
     <div class="container">
     <div class="row">
       <div class="col col-lg-4 col-md-12 col-sm-12"><p>Head Office, <br>
